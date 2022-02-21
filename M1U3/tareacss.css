@@ -1,0 +1,29 @@
+h1{
+    margin-left: 50px;
+    font-size: 30px;
+}
+img{
+    position: relative;left: 1000px;
+    filter: grayscale(100%) saturate(106%) contrast(102%);
+-webkit-filter: grayscale(100%) saturate(106%) contrast(102%);
+-moz-filter: grayscale(100%) saturate(106%) contrast(102%);
+width: 600px;
+}
+#destacar{
+    position: relative; top: -400px;
+}
+.lugar{
+    color: red;
+}
+#destacados{
+    position: relative; top: -380px;
+}
+.letra{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a:hover{
+    color: black;
+}
+
+
+

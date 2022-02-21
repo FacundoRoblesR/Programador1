@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+h2{
+    text-transform: uppercase;
+    color: blue;
+}
+p{
+    color: red;
+}
+.destacados{
+    color: green;
+    font-weight: bold;
+}
+#amarillo{
+    background-color: yellow;
+}
+#verde{
+    background-color: greenyellow;
+}
+    img{
+        filter: blur(10px);
+-webkit-filter: blur(10px);
+-moz-filter: blur(10px);
+    }
+    img:hover{
+        filter: blur(0px);
+-webkit-filter: blur(0px);
+-moz-filter: blur(0px);
+    }
+    a:hover{
+        color: black;
+    }
