@@ -1,0 +1,1 @@
+En este sitio en particular hice la parte de clases dinamica, quizas para dar avisos en los cambios de horarios, precios y demas.	

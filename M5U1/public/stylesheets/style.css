@@ -1,0 +1,99 @@
+.navbar{
+  background-color: #111111;
+}
+.icono{
+  background: none;
+  border: none;
+}
+.facebook{
+  color: #3b5998;
+}
+.instagram{
+  color: #fbc2eb;
+  padding-left: 5px;
+}
+.barra{
+  color: white;
+  font-family: 'Cairo', sans-serif;
+}
+.fitness{
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+}
+.hero{
+  background: url(../images/img/18778.jpg) no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  min-height: 100vh;
+  position: relative;
+  padding-left: 100px;
+}
+.letrash1{
+  font-family: 'Changa', sans-serif;
+  color: #C05100;
+  font-size: 60px;
+}
+.iconos{
+  color: white;
+  width: 25px;
+}
+.otro{
+ background-color: #181818; 
+ padding-bottom: 80px;
+}
+.horas-de-trabajo{
+  color: white;
+}
+.sobre {
+  background-color: white;
+  padding-top: 200px;
+}
+
+.equipo {
+  position: relative;
+}
+
+.equipo-info {
+  background-color: white;
+  border-radius: 0 0 2px 2px;
+  box-shadow: 6px 0 38px rgba(20,20,20,0.10);
+  padding: 20px;
+  position: relative;
+}
+
+.equipo-info span {
+  font-weight:lighter;
+  opacity: 0.85;
+}
+
+.clases{
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+.Clases-info {
+  box-shadow: 6px 0 38px rgba(20,20,20,0.10);
+  border-radius: 0 0 2px 2px;
+  padding: 1rem 2rem;
+  position: relative;
+}
+
+.Clases-info img {
+  border-radius: 2px 2px 0 0;
+}
+
+.Clases-info strong {
+  color: black;
+}
+
+.form-control {
+  margin: 1.3rem 0;
+}
+
+.contacto{
+  padding-top: 200px;
+  padding-bottom: 120px;
+}
+
