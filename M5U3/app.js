@@ -8,6 +8,7 @@ require('dotenv').config();
 var session = require('express-session');
 var fileUpload = require('express-fileupload');
 
+
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var loginRouter = require('./routes/admin/login');
@@ -33,7 +34,6 @@ app.use(session({
 
 secured = async (req, res,next) => {
   try {
-    //console.log(req.session.id_usuario);
     if (req.session.id_usuario) {
       next();
     } else {

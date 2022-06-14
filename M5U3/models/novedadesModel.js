@@ -12,7 +12,6 @@ async function deleteNovedadesById(id) {
     return rows;
 }
 
-
 async function insertNovedad(obj) {
     try {
         var query = "insert into novedades set ?";
@@ -40,5 +39,4 @@ async function modificarNovedadById(obj, id) {
         throw error;
     }
 }
-
-module.exports = { getNovedades, deleteNovedadesById, insertNovedad, getNovedadById, modificarNovedadById }
+module.exports = { getNovedades, deleteNovedadesById, insertNovedad, getNovedadById, modificarNovedadById}

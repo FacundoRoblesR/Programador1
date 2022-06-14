@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1:3306
--- Tiempo de generación: 06-06-2022 a las 19:01:38
+-- Tiempo de generación: 14-06-2022 a las 16:25:01
 -- Versión del servidor: 5.7.36
 -- Versión de PHP: 7.4.26
 
@@ -33,18 +33,20 @@ CREATE TABLE IF NOT EXISTS `novedades` (
   `titulo` varchar(250) NOT NULL,
   `deporte` varchar(250) NOT NULL,
   `subtitulo` text NOT NULL,
+  `precio` int(11) NOT NULL,
   `cuerpo` text NOT NULL,
+  `img_id` varchar(250) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=19 DEFAULT CHARSET=utf8;
 
 --
 -- Volcado de datos para la tabla `novedades`
 --
 
-INSERT INTO `novedades` (`id`, `titulo`, `deporte`, `subtitulo`, `cuerpo`) VALUES
-(5, 'Gaston', 'crossfit', 'Profesor', 'Bienvenido al Campus Virtual del Centro de e-Learning. \r\n Aquí encontrarás el o los cursos/materias en los que te encuentras inscripto.\r\nPodrás acceder y participar en tu curso/materia haciendo clic en el nombre del mismo.'),
-(6, 'Pepe', 'musculacion', 'Profesor', 'Bienvenido al Campus Virtual del Centro de e-Learning. \r\n Aquí encontrarás el o los cursos/materias en los que te encuentras inscripto.\r\nPodrás acceder y participar en tu curso/materia haciendo clic en el nombre del mismo.'),
-(7, 'prueba 1', 'prueba  2', 'prueba  3', 'prueba  4');
+INSERT INTO `novedades` (`id`, `titulo`, `deporte`, `subtitulo`, `precio`, `cuerpo`, `img_id`) VALUES
+(5, 'Gaston', 'Crossfit', 'Profesor', 0, 'Bienvenido al Campus Virtual del Centro de e-Learning. \r\n Aquí encontrarás el o los cursos/materias en los que te encuentras inscripto.\r\nPodrás acceder y participar en tu curso/materia haciendo clic en el nombre del mismo.', 'cbly8velxivnlgpqsp6e'),
+(6, 'Pepe', 'Yoga', 'Profesor', 0, 'Bienvenido al Campus Virtual del Centro de e-Learning. \r\n Aquí encontrarás el o los cursos/materias en los que te encuentras inscripto.\r\nPodrás acceder y participar en tu curso/materia haciendo clic en el nombre del mismo.', 'yldeofuczgdajklxab1n'),
+(17, 'Leandro', 'Cardio', 'Profesor', 11, 'Bienvenido al Campus Virtual del Centro de e-Learning. Aquí encontrarás el o los cursos/materias en los que te encuentras inscripto. Podrás acceder y participar en tu curso/materia haciendo clic en el nombre del mismo.', 'ewv4kaa5wtatfnxwc1lu');
 
 -- --------------------------------------------------------
 

@@ -25,7 +25,7 @@ router.get('/', async function (req, res, next) {
     } else {
       return {
         ...novedad,
-      imagen: '/images/img/noimagen.jpg'
+      imagen: '/images/class/noimagen.jpg'
       }
     }
   });
@@ -36,9 +36,6 @@ router.get('/', async function (req, res, next) {
     novedades
   });
 });
- 
-
-
 
 router.post('/', async (req, res, next) => {
   var nombre = req.body.nombre;
@@ -65,6 +62,5 @@ router.post('/', async (req, res, next) => {
     message: 'mensaje enviado correctamente'
   };
 });
-
 
 module.exports = router;
